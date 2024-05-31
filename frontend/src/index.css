@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+button.add {
+  background-color: green;
+}
+
+button.update {
+  background-color: yellow;
+  color: black;
+}
+
+button.delete {
+  background-color: red;
+}
